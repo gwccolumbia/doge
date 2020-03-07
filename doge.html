@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			var number = 1;
+			function update(){
+				number = number * -1;
+				if (number == -1){
+					document.getElementById('img').src='https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg';
+				}
+				if (number == 1){
+					document.getElementById('img').src='https://nationalfile.com/wp-content/uploads/2019/12/Doge-Meme-of-the-Decade.jpg';
+				}
+			}
+		</script>
+		
+	</head>
+	<body>
+		<img id='img' src='https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg' onclick="update()">
+	</body>
+</html>
+
+
+
+
+
+
+
+
